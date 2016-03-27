@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--按下的时候-->
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@color/color3" />
+    <!--默认情况下-->
+    <item android:drawable="@color/yellow" />
+</selector>

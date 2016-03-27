@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color1">#f00</color>
+    <color name="color2">#0f0</color>
+    <color name="color3">#00f</color>
+    <color name="color4">#ff0</color>
+    <color name="color5">#f0f</color>
+    <color name="color6">#0ff</color>
+    <color name="activity_pink">#FFB5C5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFCC33</color>
+    <color name="origan">#faa428</color>
+    <color name="btn_press">#686868</color>
+    <color name="gray">#BFBFBF</color>
+</resources>

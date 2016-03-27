@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="6dp"
+        android:id="@+id/item_to_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016-3-14 23:08:25"
+        android:textSize="13sp"
+        android:background="#bebebe"
+        android:layout_gravity="center"
+        android:textColor="#f5f5f5"/>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_to_msg"
+            android:text="你好，我是小慕！"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:background="@drawable/chatto_bg_normal"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/me"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:text="小兴兴"
+                android:id="@+id/item_username"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

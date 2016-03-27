@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_pink"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="机器人聊天登录"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/image_user"
+                android:src="@drawable/img_user"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入你的账号"
+                android:id="@+id/edit_user"
+                android:background="@null"
+                android:layout_toRightOf="@+id/image_user"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/yellow"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="30dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/image_password"
+                android:src="@drawable/img_password"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="请输入你的密码"
+                android:id="@+id/edit_password"
+                android:inputType="textPassword"
+                android:background="@null"
+                android:layout_toRightOf="@+id/image_password"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="登    录"
+        android:id="@+id/btn_login"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:background="@drawable/login_btn_bg"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="还没有账号？"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="立即注册>"
+            android:clickable="true"
+            android:id="@+id/login_register"
+            android:textColor="@drawable/login_text_bg"
+            android:layout_marginRight="20dp"
+            android:textSize="21sp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
